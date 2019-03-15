@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr> 
+    <head>
+	    <title>Site Kayıt Ekranı</title>
+	    <meta charset="utf-8"
+		
+    </head>
+	<body bgcolor="Black">
+	<p><font color="White"></p>
+	<form name="Kayıt olma bilgileri" action="mail.php" method="get">
+	    <table>
+		    <tr><td>Adınız:</td><td><input type="text" name="ad" autofocus = "autofocus" required="required" autofocus="autofocus"></br>
+			<tr><td>Soyadınız:</td><td><input type="text" name="ad" required="required"></br>			
+			<tr><td>Sosyal medya adresiniz:</td><td><input type="url" name="url" placeholder="bu özellik daha sonra kaldırılacaktır." size="50">
+			<tr><td>E-Posta adresiniz:</td><td><input type="email" name="email" size="50" required="required">
+			
+			</br>
+			</br>
+			<tr><td>İleti:</td><td><textarea name="ileti" rows="5" cols="70"></textarea>
+		</table>	
+		
+		
+		
+		        <p>Nerede doğdunuz?</p>
+					<select name="Nerede doğdunuz?">
+			    <optgroup label="Marmara">
+				    <option>Sakarya</option>
+					<option>İstanbul</option>
+					<option>Tekirdağ</option>
+					<option>Kırklareli</option>
+					<option>Edirne</option>
+					<option>Kocaeli(İzmit)</option>
+					<option>Balıkesir</option>
+					<option>Bursa</option>
+					<option>Bilecik</option>
+					<option>Yalova</option>
+					<option>Çanakkale</option>
+					
+				</optgroup>
+				<optgroup label="Ege Bölgesi">
+				    <option>İzmir</option>
+					<option>Aydın</option>
+					<option>Burdur</option>
+				</optgroup>
+			    
+				
+				
+			</select>
+			
+	    <center><h3>Lütfen ilgi duyduğunuz alanları işaretleyiniz.</h3></center>
+		<center><h4>Oyun</h4></center>
+		<center><input type="checkbox" name="oyun" value="var"></center>
+        <center><h4>Spor</h4></center>
+		<center><input type="checkbox" name="spor" value="var"></center>
+		<center><h4>Sanat(müzik, resim vs.)</h4></center>
+		<center><input type="checkbox" name="spor" value="var"></center>
+		<center><h4>Teknoloji</h4></center>
+		<center><input type="checkbox" name="teknoloji" value="var"></center>
+		<center><h4>Bilim</h4></center>
+		<center><input type="checkbox" name="bilim" value="var"></center>
+		
+		<center><input type="submit" value="Gönder"></center>
+		<center><input type="reset" value="İptal"></center>
+		
+		
+	    
+	
+	
+	</form>
+	    
+	</body>
+		
+		
+</html>
